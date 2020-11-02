@@ -20,25 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d38b11f4-0bc0-477e-a6b1-38cfd5d7a164" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeStudy.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeStudy/Doyeon/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeStudy/Doyeon/readme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeStudy/JiHee/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeStudy/JiHee/readme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeStudy/JunHo/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeStudy/JunHo/readme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeStudy/YuJin/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodeStudy/YuJin/readme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JunHo/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JunHo/readme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/YuJin/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/YuJin/readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/intelliJ" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -102,5 +84,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1604325246556">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604325246556" />
+    <state width="914" height="279" key="GridCell.Tab.0.bottom" timestamp="1604324023781">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604324023781" />
+    <state width="914" height="279" key="GridCell.Tab.0.center" timestamp="1604324023781">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604324023781" />
+    <state width="914" height="279" key="GridCell.Tab.0.left" timestamp="1604324023781">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604324023781" />
+    <state width="914" height="279" key="GridCell.Tab.0.right" timestamp="1604324023781">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604324023781" />
   </component>
 </project>
