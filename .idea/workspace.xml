@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d38b11f4-0bc0-477e-a6b1-38cfd5d7a164" name="Default Changelist" comment="" />
+    <list default="true" id="d38b11f4-0bc0-477e-a6b1-38cfd5d7a164" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +43,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/intelliJ" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -59,6 +63,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,6 +101,7 @@
       <workItem from="1604981547623" duration="615000" />
       <workItem from="1604982165856" duration="353000" />
       <workItem from="1604982522181" duration="173000" />
+      <workItem from="1604982953309" duration="233000" />
     </task>
     <task id="LOCAL-00001" summary="소스 정리">
       <created>1604982691185</created>
@@ -133,30 +149,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604325246556" />
-    <state width="1398" height="231" key="GridCell.Tab.0.bottom" timestamp="1604982694932">
+    <state width="1398" height="231" key="GridCell.Tab.0.bottom" timestamp="1604983154914">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="914" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604324023781" />
-    <state width="1398" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1604982694932" />
-    <state width="1398" height="231" key="GridCell.Tab.0.center" timestamp="1604982694932">
+    <state width="1398" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1604983154914" />
+    <state width="1398" height="231" key="GridCell.Tab.0.center" timestamp="1604983154913">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="914" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604324023781" />
-    <state width="1398" height="231" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1604982694932" />
-    <state width="1398" height="231" key="GridCell.Tab.0.left" timestamp="1604982694931">
+    <state width="1398" height="231" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1604983154913" />
+    <state width="1398" height="231" key="GridCell.Tab.0.left" timestamp="1604983154912">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="914" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604324023781" />
-    <state width="1398" height="231" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1604982694931" />
-    <state width="1398" height="231" key="GridCell.Tab.0.right" timestamp="1604982694932">
+    <state width="1398" height="231" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1604983154912" />
+    <state width="1398" height="231" key="GridCell.Tab.0.right" timestamp="1604983154913">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="914" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604324023781" />
-    <state width="1398" height="231" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1604982694932" />
-    <state x="207" y="42" key="SettingsEditor" timestamp="1604982562244">
+    <state width="1398" height="231" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1604983154913" />
+    <state x="207" y="42" key="SettingsEditor" timestamp="1604983131837">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="207" y="42" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1604982562244" />
+    <state x="207" y="42" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1604983131837" />
     <state x="518" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604981063506">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -165,5 +181,9 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="319" y="84" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1604981593672" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1604983182451">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1604983182451" />
   </component>
 </project>
