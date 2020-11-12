@@ -1,9 +1,11 @@
-package Doyeon;
+package Doyeon.p_20201110;
 
 import java.util.Arrays;
 
 /**
  * 규칙을 찾아서 처리
+ * n을 --하면서왼쪽 대각선, 아래 선, 오른쪽 대각선 순으로 처리
+ * https://programmers.co.kr/learn/courses/30/lessons/68645
  */
 public class TriangleSnail {
     public static int[] solution(int n) {

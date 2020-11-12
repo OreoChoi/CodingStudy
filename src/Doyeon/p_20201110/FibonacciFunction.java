@@ -1,10 +1,11 @@
-package Doyeon;
+package Doyeon.p_20201110;
 
 import java.util.Scanner;
 
 /**
  * 미리 0 ~ 40개를 할당해놓고 처리
  * 메모이제이션 이용
+ * https://www.acmicpc.net/problem/1003
  */
 public class FibonacciFunction {
     public static int[][] fibonacci = new int[41][2];

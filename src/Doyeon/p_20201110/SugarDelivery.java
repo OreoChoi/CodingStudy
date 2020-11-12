@@ -1,9 +1,10 @@
-package Doyeon;
+package Doyeon.p_20201110;
 
 import java.util.*;
 
 /**
  * 다이나믹 프로그래밍 이용해서 처리
+ * https://www.acmicpc.net/problem/2839
  */
 public class SugarDelivery {
     public static void main(String[] args) {

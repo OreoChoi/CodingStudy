@@ -1,15 +1,15 @@
-package Doyeon;
+package Doyeon.p_20201110;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Stack;
 
 /**
  * 재귀 이용해서 완전 탐색
  * 시간 초과 발생
+ * https://programmers.co.kr/learn/courses/30/lessons/42883
  */
-public class BigNumber {
+public class BigNumber1 {
     public static List<String> list = new ArrayList<>();
     public static void go(char[] chars, int length, int index, String num) {
         if (num.length() == length) {
