@@ -1,14 +1,9 @@
 package JunHo;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class FindCityInStreet {
-    static int[] visit;
-    static int[] from;
     static int X;
     static int K;
 
@@ -27,34 +22,23 @@ public class FindCityInStreet {
             graph.put(parseInt(edge.nextToken()), parseInt(edge.nextToken()));
         }
 
-        graph.bfs(X);
+        boolean hasDistance = false;
+        int[] distance = graph.bfs(X);
 
-        boolean hasK = false;
-        for (int i = 1; i <= N; i++) {
-            if (visit[i] != 0) {
-                if (tracing(i) == K) {
-                    hasK = true;
-                    bw.write(i + "\n");
-                }
+        for (int i = 0; i < distance.length; i++) {
+            if(K == distance[i]){
+                hasDistance = true;
+                bw.write(i+"\n");
             }
         }
 
-        if (!hasK) {
-            bw.write(-1 + "");
+        if(!hasDistance){
+            bw.write(-1+"");
         }
 
         bw.flush();
     }
 
-    public static int tracing(int node) {
-        int count = 0;
-        while (node != X) {
-            node = from[node];
-            count++;
-        }
-
-        return count;
-    }
 
     public static int parseInt(String s) {
         return Integer.parseInt(s);
@@ -66,8 +50,6 @@ public class FindCityInStreet {
         public Graph(int size) {
             size++;
             this.listGraph = new ArrayList[size];
-            visit = new int[size];
-            from = new int[size];
 
             for (int i = 0; i < size; i++) {
                 listGraph[i] = new ArrayList<>();
@@ -78,23 +60,27 @@ public class FindCityInStreet {
             listGraph[x].add(y);
         }
 
-        public void bfs(int startCity) {
-            Queue<Integer> queue = new LinkedList<>();
-            queue.offer(startCity);
+        public int[] bfs(int startCity) {
+            Queue<Integer> q = new LinkedList<>();
+            q.offer(startCity);
+            int[] dist = new int[listGraph.length];
+            Arrays.fill(dist, Integer.MAX_VALUE);
+            dist[startCity] = 0;
 
-            while (!queue.isEmpty()) {
-                int city = queue.poll();
+            while (!q.isEmpty()) {
+                int city = q.poll();
 
                 for (int i = 0; i < listGraph[city].size(); i++) {
                     int conCity = listGraph[city].get(i);
 
-                    if (visit[conCity] == 0) {
-                        visit[conCity] = visit[city] + 1;
-                        from[conCity] = city;
-                        queue.offer(conCity);
+                    if (dist[conCity] > dist[city] + 1) {
+                        dist[conCity] = dist[city] + 1;
+                        q.add(conCity);
                     }
                 }
             }
+
+            return dist;
         }
     }
 }
