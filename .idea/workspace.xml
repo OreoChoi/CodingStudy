@@ -20,12 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d38b11f4-0bc0-477e-a6b1-38cfd5d7a164" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/intelliJ/src/YuJin/Algo_1115/BeforeYou_1115.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/intelliJ/src/YuJin/Algo_1115/CarNumber_1115.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/intelliJ/src/YuJin/Algo_1115/Edge.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/intelliJ/src/YuJin/Algo_1115/Kruskal_1115.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/intelliJ/src/YuJin/Algo_1115/Network_1115.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/intelliJ/src/YuJin/Algo_1115/UnionFind.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+>>>>>>> e71c7489d74a708d8d51359019ed4e96d58c9f7c
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/intelliJ/src/YuJin/BigNumProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/intelliJ/src/YuJin/Algo_1109/BigNumProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/intelliJ/src/YuJin/CandyProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/intelliJ/src/YuJin/Algo_1109/CandyProblem.java" afterDir="false" />
@@ -48,6 +53,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+<<<<<<< HEAD
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -65,15 +71,28 @@
       <recent name="C:\Users\User\Desktop\Cord\Git\Algorithm\intelliJ\src\YuJin\Algo_1109" />
       <recent name="C:\Users\User\Desktop\Cord\Git\Algorithm\intelliJ\src\YuJin\Finish_1109" />
       <recent name="C:\Users\User\Desktop\Cord\Git\Algorithm\intelliJ\src\YuJin\Finish" />
+=======
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/intelliJ" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+>>>>>>> e71c7489d74a708d8d51359019ed4e96d58c9f7c
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JunHo.Main" />
-      <module name="CodeStudy" />
+    <configuration name="BigNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Doyeon.BigNumber" />
+      <module name="CodingStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JunHo.*" />
+          <option name="PATTERN" value="Doyeon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,7 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BigNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -109,10 +128,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604320609915</updated>
+<<<<<<< HEAD
       <workItem from="1604977643985" duration="1782000" />
       <workItem from="1605365183997" duration="694000" />
       <workItem from="1605367348908" duration="1478000" />
+=======
+      <workItem from="1604981044875" duration="195000" />
+      <workItem from="1604981260703" duration="68000" />
+      <workItem from="1604981332251" duration="150000" />
+      <workItem from="1604981547623" duration="615000" />
+      <workItem from="1604982165856" duration="353000" />
+      <workItem from="1604982522181" duration="173000" />
+      <workItem from="1604982953309" duration="233000" />
+>>>>>>> e71c7489d74a708d8d51359019ed4e96d58c9f7c
     </task>
+    <task id="LOCAL-00001" summary="소스 정리">
+      <created>1604982691185</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604982691185</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,30 +167,69 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="소스 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="소스 정리" />
+  </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="519" y="330" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605367811217">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="519" y="330" key="#com.intellij.fileTypes.FileTypeChooser/62.0.1858.1080@62.0.1858.1080" timestamp="1605367811217" />
+=======
+    <state x="208" y="43" key="#Project_Structure" timestamp="1604982065987">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="208" y="43" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1604982065987" />
+    <state x="184" y="123" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604981699567">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="184" y="123" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1604981699567" />
+    <state x="297" y="34" key="CommitChangelistDialog2" timestamp="1604982691027">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="297" y="34" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1604982691027" />
+>>>>>>> e71c7489d74a708d8d51359019ed4e96d58c9f7c
     <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1604325246556">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604325246556" />
-    <state width="914" height="279" key="GridCell.Tab.0.bottom" timestamp="1604324023781">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1398" height="231" key="GridCell.Tab.0.bottom" timestamp="1604983154914">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="914" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604324023781" />
-    <state width="914" height="279" key="GridCell.Tab.0.center" timestamp="1604324023781">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1398" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1604983154914" />
+    <state width="1398" height="231" key="GridCell.Tab.0.center" timestamp="1604983154913">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="914" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604324023781" />
-    <state width="914" height="279" key="GridCell.Tab.0.left" timestamp="1604324023781">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1398" height="231" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1604983154913" />
+    <state width="1398" height="231" key="GridCell.Tab.0.left" timestamp="1604983154912">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="914" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604324023781" />
-    <state width="914" height="279" key="GridCell.Tab.0.right" timestamp="1604324023781">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1398" height="231" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1604983154912" />
+    <state width="1398" height="231" key="GridCell.Tab.0.right" timestamp="1604983154913">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="914" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604324023781" />
+    <state width="1398" height="231" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1604983154913" />
+    <state x="207" y="42" key="SettingsEditor" timestamp="1604983131837">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="207" y="42" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1604983131837" />
+    <state x="518" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604981063506">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="518" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1604981063506" />
+    <state x="319" y="84" key="new project wizard" timestamp="1604981593672">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="319" y="84" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1604981593672" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1604983182451">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1604983182451" />
   </component>
 </project>
