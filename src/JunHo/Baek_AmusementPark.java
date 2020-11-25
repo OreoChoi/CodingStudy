@@ -13,7 +13,7 @@ import java.io.InputStreamReader;
  * boolean x분 탑승 가능 놀이 기구 = x % rateTime[i] == 0
  *
  */
-public class Back_AmusementPark {
+public class Baek_AmusementPark {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String[] input = br.readLine().split(" ");
