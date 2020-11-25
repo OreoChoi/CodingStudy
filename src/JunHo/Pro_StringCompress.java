@@ -50,33 +50,34 @@ public class Pro_StringCompress {
 
     /**
      * 1 ~ s.length/2 까지의 단위로 문자열을 잘라 List형태로 반환합니다.
-     *
+     * <p>
      * 예시) aabbccdd
      * cutList.get(0) = {"a","a","b","b","c","c","d","d"}
      * cutList.get(1) = {"aa","bb","cc","dd"}
      * cutList.get(2) = {"aab","bcc","dd"}
      * cutList.get(3) = {"aabb","ccdd"}
-     *
+     * <p>
      * [s.length/2를 하는 이유]
-     *  1. 문자열을 잘라 압축 해야 하는데 절반을 넘어 압축 할 수 없다.
+     * 1. 문자열을 잘라 압축 해야 하는데 절반을 넘어 압축 할 수 없다.
      */
     static List<String[]> createCutList(String s) {
         List<String[]> cutList = new ArrayList<>();
-        int cutLength = 0;
+        int cutLength = 1;
 
         for (int i = 0; i < s.length() / 2; i++) {
-            cutLength++;
-            String[] cutStr = new String[s.length() / cutLength+1];
-
+            String[] cutStr = new String[s.length() / cutLength + 1];
             int index = 0;
+
             for (int j = 0; j < cutStr.length; j++) {
-                if(index+cutLength <= s.length()) {
+                if (index + cutLength <= s.length()) {
                     cutStr[j] = s.substring(index, index + cutLength);
                     index = index + cutLength;
-                }else{
+                } else {
                     cutStr[j] = s.substring(index);
                 }
             }
+
+            cutLength++;
             cutList.add(cutStr);
         }
 
