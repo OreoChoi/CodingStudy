@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
  * <p>
  * SumIsZero
  */
-public class SumIsZero {
+public class Baek_SumIsZero {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 

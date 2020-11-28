@@ -26,10 +26,9 @@ public class Pro_HIndex {
         }
 
         for (int hIndex = 1; hIndex <= cit.length; hIndex++) {
-            int index = 0;
             boolean result = true;
 
-            for (int i = index; i < cit.length; i++) {
+            for (int i = 0; i < cit.length; i++) {
                 if (hIndex <= cit[i]) {  //현재 남은 논문 수가 hIndex 이상이면
                     for (int j = cit.length - hIndex - 1; j >= 0; j--) { //남은 논문들이 hIndex개 이상이 있는지 체크
                         if (cit[j] > hIndex) {
