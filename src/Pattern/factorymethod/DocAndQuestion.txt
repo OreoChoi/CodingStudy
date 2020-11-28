@@ -1,0 +1,35 @@
+팩토리 메서드 패턴 이란?
+ 1. 객체 생성 작업을 전담 하는 factory 클래스를 만들어 사용 하는 패턴을 의미 합니다.
+ 2. 패턴 타입은 Creational(생성) 타입 입니다.
+
+사용 목적
+ 1. 객체 생성을 직접 하지 않고 factori 메서드에 위임 하므로 객체 간의 결합도가 낮아지며 유지 보수에 용이 해집니다. (라는데.. 의미는 아직 이해가 안됩니당.)
+ 2. 객체 생성을 factory 클래스 한 곳에서 관리 하며,
+    같은 부모를 상속 받는 클래스를 추가 하며 관리 하기 용이 합니다.
+ 3. 객체 생성 시 분기문을 통해 생성 하는 경우 factori 클래스에서 관리 하면 한 곳에서 관리가 가능합니다.
+
+
+문제
+1. 추상화 클래스를 쓰는 목적은 무엇이라 생각하시나요?
+
+2. 아래 코드는
+   String type으로 생성할 클래스를 구분하여
+   type에 해당하는 클래스를 생성합니다.
+
+   String type이 아닌 enum으로 대체가능 합니다.
+   enum으로 대체를 하는게 좋을지 여부와,
+   만약 그것이 좋다면 왜 좋은지에 대해 설명해주세요.
+
+public class GalaxyProductFactory extends ProductFactory {
+    @Override
+    protected Product createProduct(String type) {
+        switch (type) {
+            case "NORMAL":
+                return new GalaxyTab(type);
+            case "PRO":
+                return new GalaxyTabNew(type);
+            default:
+                return new GalaxyTab(ProductType.NORMAL);
+        }
+    }
+}
