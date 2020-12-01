@@ -28,9 +28,6 @@ public class SortFileNames {
         return result;
     }
 
-    static final char ZERO = '0';
-    static final char NINE = '9';
-
     static class File implements Comparable<File> {
         String HEAD;
         int NUMBER;
@@ -43,7 +40,7 @@ public class SortFileNames {
             StringBuilder nBuilder = new StringBuilder();
 
             for (char word : array) {
-                if (word >= ZERO && word <= NINE) {
+                if (word >= '0' && word <= '9') {
                     nBuilder.append(word);
                 } else if (nBuilder.length() == 0) {
                     hBuilder.append(word);
@@ -55,7 +52,6 @@ public class SortFileNames {
             NUMBER = Integer.parseInt(nBuilder.toString());
         }
 
-
         @Override
         public int compareTo(File o) {
             int compare = HEAD.compareTo(o.HEAD);
@@ -63,11 +59,7 @@ public class SortFileNames {
                 return compare;
             }
             compare = Integer.compare(NUMBER, o.NUMBER);
-            if (compare != 0) {
-                return compare;
-            }
-
-            return 0;
+            return compare;
         }
     }
 }
