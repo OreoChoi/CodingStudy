@@ -63,6 +63,7 @@ public class Compression {
         return answer;
     }
 
+
     public static String cutString(int end) {
         String cutString = msg.substring(0, end);
         msg = msg.substring(end);
