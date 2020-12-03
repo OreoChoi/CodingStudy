@@ -1,0 +1,41 @@
+추상 팩토리 패턴(Abstract Factory Pattern)이란?
+ - 팩토리 패턴과 유사하면서 차이점이 있습니다.
+ - 서로 관련있는 객체(팩토리)들을 통째로 묶어 팩토리 클래스로 만들고
+   만든 팩토리 클래스에서 조건에 따라 하위 팩토리를 만들어서 객체를 생성하는 패턴
+ - 팩토리 메서드에 비해 한층 더 캡슐화 된 패턴 이라 볼수 있다.
+
+추상 팩토리 패턴을 사용하는 경우?
+ - 객체 (생성,표현,구성) 과정을 시스템과 독립 시키려 할 때
+ - 여러 제품군 중 하나를 선택해 사용하고, 손쉽게 다른 제품으로 교체하려고 할때
+
+   손님 : Dell 컴퓨터 주세요
+   직원 : 계산(Pos)프로그램 장바구니에 Dell 컴퓨터를 등록한다.
+   교체 전 ex) Computer computer = computerFactory(Type.Dell)
+
+   손님 : 아 LG로 할께요
+   직원 : 계산(Pos)프로그램 장바구니에 Dell을 LG로 교체한다.
+   교체 후 ex) computer = computerFactory(Type.LG)
+
+   결국 팔리는건 computer 이다.
+
+ - 관련 제품을 함께 factory해야 하며, 이 부분에 대한 제약이 외부에도(타 개발자)
+   지켜지도록 하고 싶을때
+
+ - 제품에 대한 클래스 라이브러리를 제공하고, 그들에게 구현이 아닌 인터페이스만 노출시키고 싶을 때
+   (너흰 사용만 해 구현하지 말고)
+
+
+추상 팩토리 구현시 주의 점
+ - 딱딱하게 구현하지 말 것
+   - Factory 이면서 Product인 경우도 있다.
+   - Factory 이면서 Product를 생산하는 경우도 있다.
+ - 제품 생산의 책임은 ConcreteFactory(구상 팩토리)에 있다.
+   - 실질적으로 모든 구현체를 생성하는 팩토리를 의미한다.
+ - 프로덕트 생성자에 팩토리를 주입하는 방식도 고려 될수 있다.
+   - new Computer(factory);
+ - ConcreteFactory를 싱글톤으로 만들어 사용하는 것을 고려할 것
+
+
+문제
+IDEuIE9PUOydmCA164yAIOybkOy5mShTT0xJRCnrpbwg7ISk66qF7ZW0IOyjvOyEuOyalA0KICAgIFMgOiDri6jsnbwg7LGF7J6EIOybkOy5mQ0KICAgIE8gOiDqsJzrsKkt7Y+Q7IeEIOybkOy5mQ0KICAgIEwgOiDrpqzsiqTsvZTtlIQg7LmY7ZmYIOybkOy5mQ0KICAgIEkgOiDsnZjsobQg7Jet7KCEIOybkOy5mQ0KICAgIEQgOiDsnbjthLDtjpjsnbTsiqQg67aE66asIOybkOy5mQ==
+
