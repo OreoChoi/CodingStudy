@@ -8,7 +8,7 @@ import java.util.List;
  * jhChoi - 201201
  * 프로그래머스 - 압축
  */
-public class Compression {
+public class Pro_Compression {
     public static void main(String[] args) {
         //int[] result = solution("KAKAO");
         //int[] result2 = solution("TOBEORNOTTOBEORTOBEORNOT");

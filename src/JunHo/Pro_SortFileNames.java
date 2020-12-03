@@ -8,7 +8,7 @@ import java.util.List;
  * jhChoi - 201201
  * 프로그래머스 - 파일명 정렬
  */
-public class SortFileNames {
+public class Pro_SortFileNames {
     public static void main(String[] args) {
         String[] files = {"img12.png", "img10.png", "img02.png",
                 "img1.png", "IMG01.GIF", "img2.JPG"};

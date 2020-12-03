@@ -4,7 +4,7 @@ package JunHo;
  * jhChoi - 201201
  * 프로그래머스 - 방금 그 곡
  */
-public class Song {
+public class Pro_Song {
     public static void main(String[] args) {
         String m = "ABCDEFG";
         String[] musicinfos = {"12:00,12:14,HELLO,CDEFGAB", "13:00,13:05,WORLD,ABCDEF"};
