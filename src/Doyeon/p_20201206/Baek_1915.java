@@ -3,7 +3,13 @@ package Doyeon.p_20201206;
 import java.util.Scanner;
 
 /**
+ * [백준] 가장 큰 정사각형
+ * https://www.acmicpc.net/problem/1915
  *
+ * 문제접근방법
+ * 1. DP로 해결
+ * D[i][j] = (i,j)를 오른쪽 끝으로 하는 정사각형의 최대 크기
+ * [참고] https://suriisurii.tistory.com/13
  */
 public class Baek_1915 {
     public static void main(String[] args) {

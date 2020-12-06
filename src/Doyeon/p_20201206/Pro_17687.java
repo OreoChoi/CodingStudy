@@ -8,7 +8,7 @@ import java.util.List;
  * https://programmers.co.kr/learn/courses/30/lessons/17687
  *
  * 문제풀이방법
- *
+ * 1.
  */
 public class Pro_17687 {
 	public static char[] table = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};
