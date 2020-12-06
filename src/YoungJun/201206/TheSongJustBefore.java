@@ -1,4 +1,4 @@
-class Solution {
+class TheSongJustBefore {
     private String repAll(String m) {
         return m.replace("C#", "c")
                 .replace("D#", "d")

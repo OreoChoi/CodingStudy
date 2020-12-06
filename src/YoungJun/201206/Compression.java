@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class Compression {
     public int[] solution(String msg) {
         HashMap<String, Integer> dic = new HashMap<>();
         ArrayList<Integer> arr = new ArrayList<>();

@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class sortFileName {
     public String[] solution(String[] files) {
         Arrays.sort(files, new Comparator<String>() {
             @Override
@@ -28,5 +28,5 @@ class Solution {
             }
         });
         return files;
-    }
+	}
 }

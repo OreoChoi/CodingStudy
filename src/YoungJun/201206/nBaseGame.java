@@ -1,6 +1,6 @@
-class Solution {
+class nBaseGame {
     String sy = "0123456789ABCDEF";
-	
+
     private String base_to_s(int base, int n) {
         String s = "";
         while(n > 0) {
@@ -9,7 +9,7 @@ class Solution {
         }
         return (new StringBuffer(s)).reverse().toString();
     }
-	
+
     public String solution(int n, int t, int m, int p) {
         String s = "0";
         String ans = "";
