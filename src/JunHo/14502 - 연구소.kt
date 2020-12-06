@@ -1,10 +1,11 @@
-val dx = intArrayOf(-1, 1, 0, 0)
-val dy = intArrayOf(0, 0, -1, 1)
+package JunHo
 
-const val MAX_WALL = 3
-const val EMPTY = 0
-const val WALL = 1
-const val VIRUS = 2
+private const val MAX_WALL = 3
+private const val EMPTY = 0
+private const val WALL = 1
+private const val VIRUS = 2
+private val dx = arrayOf(-1, 1, 0, 0)
+private val dy = arrayOf(0, 0, -1, 1)
 fun main(args: Array<String>) = with(System.`in`.bufferedReader()) {
     val (N, M) = readLine().split(" ").map { it.toInt() }   //연구소 세로, 가로 크기
     val map = Array(N) { Array(M) { 0 } }                             //연구소를 표현할 map

@@ -1,3 +1,5 @@
+package YoungJun.Done_201206;
+
 class nBaseGame {
     String sy = "0123456789ABCDEF";
 
