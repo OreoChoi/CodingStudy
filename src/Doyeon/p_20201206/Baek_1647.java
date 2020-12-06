@@ -6,7 +6,10 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * 문제풀이방법
+ * [백준] 도시분할계획
+ * https://www.acmicpc.net/problem/1647
+ *
+ * 문제접근방법
  * 1. 먼저 최소신장트리를 구성하고
  * 2. 그 중 유지비가 가장 큰 길을 없앤다
  */

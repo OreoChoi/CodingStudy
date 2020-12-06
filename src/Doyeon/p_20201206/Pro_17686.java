@@ -11,7 +11,6 @@ import java.util.List;
  *
  * 문제풀이방법
  * 1. 숫자의 시작위치 끝위치를 찾고
- * 2.
  */
 
 class File implements Comparable<File> {

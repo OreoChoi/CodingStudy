@@ -2,6 +2,14 @@ package Doyeon.p_20201206;
 
 import java.util.Scanner;
 
+/**
+ * [백준] 내리막 길
+ * https://www.acmicpc.net/problem/1520
+ *
+ * 문제접근방법
+ * 1.DP + DFS를 이용해서 해결
+ * [참고] https://wootool.tistory.com/83
+ */
 public class Baek_1520 {
 	public static int[] dx = {-1, 0, 0, 1};
 	public static int[] dy = {0, -1, 1, 0};
@@ -29,9 +37,11 @@ public class Baek_1520 {
 		// 방문한 적 없는 경우
 		if (cnt[i][j] == -1) {
 			cnt[i][j] = 0;
+
 			for (int k = 0; k < 4; k++) {
 				int ni = i + dx[k];
 				int nj = j + dy[k];
+
 				if ((0 <= ni && ni < m) && (0 <= nj && nj < n)) {
 					if (a[ni][nj] < a[i][j]) {
 						cnt[i][j] += dfs(a, cnt, m, n, ni, nj);

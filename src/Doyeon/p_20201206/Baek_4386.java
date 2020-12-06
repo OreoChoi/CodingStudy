@@ -5,6 +5,15 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * [백준] 별자리 만들기
+ * https://www.acmicpc.net/problem/4386
+ *
+ * 문제접근방법
+ * 1. 처음에 그래프를 입력받아서 만들고
+ * 2. 모든 노드들에 대한 간선을 다 만들고
+ * 3. 최소 신장 트리를 구성
+ */
 public class Baek_4386 {
 	static class Node {
 		double x;
