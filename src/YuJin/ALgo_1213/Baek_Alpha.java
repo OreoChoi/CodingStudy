@@ -12,7 +12,7 @@ public class Baek_Alpha {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-         row = Integer.parseInt(st.nextToken());
+        row = Integer.parseInt(st.nextToken());
         col = Integer.parseInt(st.nextToken());
         arr =new char [row][col];
 
@@ -30,7 +30,6 @@ public class Baek_Alpha {
         if(arr[i][j] =='@') return;
         if(visited[arr[i][j]-'A']) return;
 
-        System.out.print(arr[i][j]-'A');
         char c= arr[i][j];
         visited[arr[i][j]-'A'] =true;
         arr[i][j] = '@';
